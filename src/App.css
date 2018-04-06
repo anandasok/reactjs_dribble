@@ -1,0 +1,183 @@
+/* Custom CSS*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, ol, ul, li, form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+    color: #999;
+}
+
+#crypto-platforms {
+  /*font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+a img {
+    border: none;
+}
+
+a:active {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1e6189;
+}
+
+#logo a, #logo span {
+    display: block;
+    width: 76px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-image: url(https://cdn.dribbble.com/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png);
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+
+/* Footer css */
+
+#footer {
+    border-top: 1px solid #e5e5e5;
+    background: white;
+    z-index: 2;
+    position: relative;
+}
+
+#footer-inner {
+    margin: 0 auto;
+    padding: 30px 30px 20px 30px;
+    font-size: 13px;
+    color: #999;
+}
+
+.footer-col {
+    margin: 0 0 20px 0;
+}
+
+#footer-inner p.logo {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #999;
+}
+
+#footer-inner ul, #footer-inner ol{
+    list-style: none;
+}
+
+#footer-inner h3 {
+    margin: 2px 0 14px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+
+#footer p.follow {
+    margin-top: 20px;
+}
+
+#footer p.follow a {
+    margin: 0 10px 0 0;
+}
+
+#footer p {
+    margin: 0 50px 10px 0;
+    line-height: 1.6;
+}
+
+#footer-inner .extra-links ul {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.jobs-list img {
+    height: 18%;
+    width: 18%;
+    border-radius: 50%;
+}
+
+.jobs-list li {
+    margin: 0 0 15px 0;
+    position: relative;
+}
+
+.item-link {
+    padding: 0 0 0 10px;
+    border: none;
+    z-index: auto;
+    position: absolute;
+}
+
+.item-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3a8bbb;
+}
+
+.item-desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+div.ad {
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 145px;
+    position: relative;
+    min-height: 100px;
+}
+
+div.ad a.carbon-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.ad a:hover {
+    color: #444;
+}
+
+div.ad a.carbon-poweredby {
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #bbb;
+}
+
+h4#pixels-total {
+    min-height: 56px;
+    padding: 0 0 0 54px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-weight: normal;
+    color: #777;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-image: url(https://cdn.dribbble.com/assets/ball-2acfbb9fdf187a34b07a7cc209d07025b39697eba6302c54942a556c10b3fa94.png);
+}
+
+h4#pixels-total strong {
+    display: block;
+    padding-top: 4px;
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #333;
+}
